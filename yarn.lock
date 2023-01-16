@@ -2193,6 +2193,25 @@
   dependencies:
     tslib "^2.4.0"
 
+"@tanstack/react-router-devtools@^0.0.1-beta.45":
+  version "0.0.1-beta.45"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router-devtools/-/react-router-devtools-0.0.1-beta.45.tgz#9828ed29eeb17d547f6548f0c22c64f3292e9c35"
+  integrity sha512-zh6fZuUCvRjCPTkAQB7CT/ZU7GztClK3ZNcqpWo7PnTisc6I2J0ZazFl3PjxQ2mD3G0Z1p9du7TTt1SxfJrVXQ==
+  dependencies:
+    "@babel/runtime" "^7.16.7"
+    "@tanstack/react-router" "0.0.1-beta.45"
+    date-fns "^2.29.1"
+
+"@tanstack/react-router@0.0.1-beta.45":
+  version "0.0.1-beta.45"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-0.0.1-beta.45.tgz#edd9b4ccb9c5538a238071d42eb37e8dc7364dca"
+  integrity sha512-n3sLDLVkmhHyVXxaM/KYHjZBIW0fJGqX4Q+1itX+X3ucaJzN3OQTQ7afO135frBjOsIwEp8thKlTbjsKSWAkcw==
+  dependencies:
+    "@babel/runtime" "^7.16.7"
+    "@solidjs/reactivity" "^0.0.6"
+    "@tanstack/router-core" "0.0.1-beta.45"
+    use-sync-external-store "^1.2.0"
+
 "@tanstack/react-router@^0.0.1-beta.48":
   version "0.0.1-beta.48"
   resolved "https://registry.yarnpkg.com/@tanstack/react-router/-/react-router-0.0.1-beta.48.tgz#4fd250dccd3cd40b25a9d4eb1551429b327167bf"
@@ -4199,6 +4218,11 @@ data-urls@^3.0.1:
     abab "^2.0.6"
     whatwg-mimetype "^3.0.0"
     whatwg-url "^11.0.0"
+
+date-fns@^2.29.1:
+  version "2.29.3"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.29.3.tgz#27402d2fc67eb442b511b70bbdf98e6411cd68a8"
+  integrity sha512-dDCnyH2WnnKusqvZZ6+jA1O51Ibt8ZMRNkDZdyAyK4YfbDwa/cEmuztzG5pk6hqlp9aSBPYcjOlktquahGwGeA==
 
 dayjs@^1.10.4:
   version "1.11.7"
