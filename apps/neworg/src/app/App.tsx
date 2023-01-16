@@ -1,16 +1,8 @@
-import styled from '@emotion/styled';
-import NxWelcome from './nx-welcome';
-
-const StyledApp = styled.div`
-  // Your style here
-`;
+import { NewOrgTheme } from 'neworgui';
+// import NxWelcome from './nx-welcome';
 
 export function App() {
-  return (
-    <StyledApp>
-      <NxWelcome title="neworg" />
-    </StyledApp>
-  );
+  return <NewOrgTheme>{/* <NxWelcome title="neworg" /> */}</NewOrgTheme>;
 }
 
 export default App;
