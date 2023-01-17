@@ -1,15 +1,15 @@
-import styled from '@emotion/styled';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools/build/lib/devtools';
 import NxWelcome from './nx-welcome';
 
-const StyledApp = styled.div`
-  // Your style here
-`;
+const queryClient = new QueryClient();
 
 export function App() {
   return (
-    <StyledApp>
+    <QueryClientProvider client={queryClient}>
       <NxWelcome title="neworg" />
-    </StyledApp>
+      <ReactQueryDevtools initialIsOpen />
+    </QueryClientProvider>
   );
 }
 
