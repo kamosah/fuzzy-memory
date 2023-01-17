@@ -1,5 +1,6 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import { ReactQueryDevtools } from '@tanstack/react-query-devtools/build/lib/devtools';
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+
 import NxWelcome from './nx-welcome';
 
 const queryClient = new QueryClient();
